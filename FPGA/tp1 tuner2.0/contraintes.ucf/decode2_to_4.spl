@@ -1,0 +1,9 @@
+[Inputs]
+=sel[1:0]=
+[Outputs]
+afficheur_0
+afficheur_1
+afficheur_2
+afficheur_3
+DP1
+[BiDir]

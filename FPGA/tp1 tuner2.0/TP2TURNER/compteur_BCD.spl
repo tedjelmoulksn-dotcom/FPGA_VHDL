@@ -1,0 +1,15 @@
+[Inputs]
+CLK
+UP_CMPT
+DOWN_CMPT
+Enable
+Reset
+INIT_CMPT
+[Outputs]
+Full
+Empty
+=BCD_U[3:0]=
+=BCD_D[3:0]=
+=BCD_H[3:0]=
+=BCD_T[3:0]=
+[BiDir]

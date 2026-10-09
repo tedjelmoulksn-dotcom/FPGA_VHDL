@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../../Tp0/etape3/etape2.vhd -prj contraintes.ucf -o etape2.spl -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 etape2.spl {G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/etape2.sym} 

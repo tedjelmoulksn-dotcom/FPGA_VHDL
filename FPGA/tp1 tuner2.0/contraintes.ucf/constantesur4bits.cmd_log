@@ -1,0 +1,2 @@
+vhdtdtfi -lib work constantesur4bits.vhd -prj contraintes.ucf -o constantesur4bits.spl -module constantesur4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 constantesur4bits.spl {G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/constantesur4bits.sym} 

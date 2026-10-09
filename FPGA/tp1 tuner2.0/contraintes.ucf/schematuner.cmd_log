@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schematuner_map.ncd schematuner.ngd schematuner.pcf 
+par -w -intstyle ise -ol high -mt off schematuner_map.ncd schematuner.ncd schematuner.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schematuner.twx schematuner.ncd -o schematuner.twr schematuner.pcf 
+bitgen -intstyle ise -f schematuner.ut schematuner.ncd 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schematuner_map.ncd schematuner.ngd schematuner.pcf 
+par -w -intstyle ise -ol high -mt off schematuner_map.ncd schematuner.ncd schematuner.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schematuner.twx schematuner.ncd -o schematuner.twr schematuner.pcf 
+bitgen -intstyle ise -f schematuner.ut schematuner.ncd 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schematuner_map.ncd schematuner.ngd schematuner.pcf 
+par -w -intstyle ise -ol high -mt off schematuner_map.ncd schematuner.ncd schematuner.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schematuner.twx schematuner.ncd -o schematuner.twr schematuner.pcf 
+bitgen -intstyle ise -f schematuner.ut schematuner.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schematuner_map.ncd schematuner.ngd schematuner.pcf 
+par -w -intstyle ise -ol high -mt off schematuner_map.ncd schematuner.ncd schematuner.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schematuner.twx schematuner.ncd -o schematuner.twr schematuner.pcf 
+bitgen -intstyle ise -f schematuner.ut schematuner.ncd 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/schematuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "G:/Etudiant/INSTRU1/FPGA/test/NEXYS A7-100T.ucf" -p xc7a100t-csg324-3 "schematuner.ngc" schematuner.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schematuner_map.ncd schematuner.ngd schematuner.pcf 
+par -w -intstyle ise -ol high -mt off schematuner_map.ncd schematuner.ncd schematuner.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schematuner.twx schematuner.ncd -o schematuner.twr schematuner.pcf 
+bitgen -intstyle ise -f schematuner.ut schematuner.ncd 

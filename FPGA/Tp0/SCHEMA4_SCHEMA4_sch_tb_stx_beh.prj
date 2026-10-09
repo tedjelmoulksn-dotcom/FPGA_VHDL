@@ -1,0 +1,5 @@
+vhdl isim_temp "etape3/etape3.vhd"
+vhdl isim_temp "etape3/etape2.vhd"
+vhdl isim_temp "SCHEMA4.vhf"
+vhdl isim_temp "tp0_tb.vhd"
+vhdl isim_temp "SCHEMA4_tb.vhd"

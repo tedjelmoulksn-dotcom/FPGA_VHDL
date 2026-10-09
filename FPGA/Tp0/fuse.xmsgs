@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 48: &lt;<arg fmt="%s" index="1">clock_brd</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 50: &lt;<arg fmt="%s" index="1">clock_brd</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 55: &lt;<arg fmt="%s" index="1">sw_user0</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 57: &lt;<arg fmt="%s" index="1">sw_user0</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 62: &lt;<arg fmt="%s" index="1">test_button</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 64: &lt;<arg fmt="%s" index="1">test_button</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"G:/Etudiant/INSTRU1/FPGA/Tp0/tp0_tb.vhd" Line 22: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

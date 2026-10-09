@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur2bits.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur2bits.syr" 
+vhdtdtfi -lib work Compteur2bits.vhd -prj contraintes.ucf -o Compteur2bits.spl -module Compteur2bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Compteur2bits.spl {G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur2bits.sym} 

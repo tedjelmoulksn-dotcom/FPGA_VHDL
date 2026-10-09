@@ -1,0 +1,8 @@
+vhdl work "MULTIPLEXEUR.vhd"
+vhdl work "digit_0_sur_4bits.vhd"
+vhdl work "decode2_to_4.vhd"
+vhdl work "constantesur4bits.vhd"
+vhdl work "Compteur2bits.vhd"
+vhdl work "../../Tp0/etape3/etape3.vhd"
+vhdl work "../../Tp0/etape3/etape2.vhd"
+vhdl work "schematuner.vhf"

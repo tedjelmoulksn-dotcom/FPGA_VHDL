@@ -1,0 +1,2 @@
+vhdl isim_temp "schema1tpo.vhf"
+vhdl isim_temp "schema_tb.vhd"

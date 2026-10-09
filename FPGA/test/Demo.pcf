@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 28 10:54:58 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED" LOCATE = SITE "V11" LEVEL 1;
+COMP "Bouton" LOCATE = SITE "N17" LEVEL 1;
+SCHEMATIC END;
+

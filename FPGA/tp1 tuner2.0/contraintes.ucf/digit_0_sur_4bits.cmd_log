@@ -1,0 +1,2 @@
+vhdtdtfi -lib work digit_0_sur_4bits.vhd -prj contraintes.ucf -o digit_0_sur_4bits.spl -module digit_0_sur_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 digit_0_sur_4bits.spl {G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/digit_0_sur_4bits.sym} 

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/TP1num/Demo.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/TP1num/Demo.syr" 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/TP1num/Demo.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/TP1num/Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Demo.ngc Demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Demo_map.ncd Demo.ngd Demo.pcf 
+par -w -intstyle ise -ol high -mt off Demo_map.ncd Demo.ncd Demo.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Demo.twx Demo.ncd -o Demo.twr Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Demo.ngc Demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Demo_map.ncd Demo.ngd Demo.pcf 
+par -w -intstyle ise -ol high -mt off Demo_map.ncd Demo.ncd Demo.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Demo.twx Demo.ncd -o Demo.twr Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Demo.ngc Demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Demo_map.ncd Demo.ngd Demo.pcf 
+par -w -intstyle ise -ol high -mt off Demo_map.ncd Demo.ncd Demo.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Demo.twx Demo.ncd -o Demo.twr Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "NEXYS A7-100T.ucf" -p xc7a100t-csg324-1 Demo.ngc Demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "NEXYS A7-100T.ucf" -p xc7a100t-csg324-1 Demo.ngc Demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Demo_map.ncd Demo.ngd Demo.pcf 
+par -w -intstyle ise -ol high -mt off Demo_map.ncd Demo.ncd Demo.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Demo.twx Demo.ncd -o Demo.twr Demo.pcf -ucf {NEXYS A7-100T.ucf} 
+bitgen -intstyle ise -f Demo.ut Demo.ncd 

@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family artix7 -refsym SCHEMA4 G:/Etudiant/INSTRU1/FPGA/Tp0/etape3/SCHEMA4.sch G:/Etudiant/INSTRU1/FPGA/Tp0/SCHEMA4.sym 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/Tp0/SCHEMA4.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/Tp0/SCHEMA4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SCHEMA4.ngc SCHEMA4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SCHEMA4_map.ncd SCHEMA4.ngd SCHEMA4.pcf 
+par -w -intstyle ise -ol high -mt off SCHEMA4_map.ncd SCHEMA4.ncd SCHEMA4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SCHEMA4.twx SCHEMA4.ncd -o SCHEMA4.twr SCHEMA4.pcf 

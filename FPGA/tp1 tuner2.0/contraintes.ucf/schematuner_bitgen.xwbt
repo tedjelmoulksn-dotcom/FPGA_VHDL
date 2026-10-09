@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\Etudiant\INSTRU1\FPGA\tp1 tuner\contraintes.ucf\schematuner.ncd
+OUTFILE=G:\Etudiant\INSTRU1\FPGA\tp1 tuner\contraintes.ucf\schematuner.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=G:\Etudiant\INSTRU1\FPGA\tp1 tuner\contraintes.ucf
+LICENSE=WebPack
+USER_INFO=211200408_0_0_913

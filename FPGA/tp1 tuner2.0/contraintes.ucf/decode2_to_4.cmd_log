@@ -1,0 +1,2 @@
+vhdtdtfi -lib work decode2_to_4.vhd -prj contraintes.ucf -o decode2_to_4.spl -module decode2_to_4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 decode2_to_4.spl {G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/decode2_to_4.sym} 

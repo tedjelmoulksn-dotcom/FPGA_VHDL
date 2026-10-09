@@ -1,0 +1,7 @@
+[Inputs]
+CLK
+reset
+start_compteur
+[Outputs]
+=sortie_compteur[1:0]=
+[BiDir]

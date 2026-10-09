@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 etape2.ngc etape2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o etape2_map.ncd etape2.ngd etape2.pcf 
+par -w -intstyle ise -ol high -mt off etape2_map.ncd etape2.ncd etape2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml etape2.twx etape2.ncd -o etape2.twr etape2.pcf 
+vhdtdtfi -lib work etape2.vhd -prj ETAPE2 -o etape2.spl -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 etape2.spl G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.sym 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 etape2.ngc etape2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o etape2_map.ncd etape2.ngd etape2.pcf 
+par -w -intstyle ise -ol high -mt off etape2_map.ncd etape2.ncd etape2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml etape2.twx etape2.ncd -o etape2.twr etape2.pcf 
+vhdtdtfi -prj ETAPE2 -o G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.vhi -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work etape2.vhd 
+vhdtdtfi -lib work etape2.vhd -prj ETAPE2 -o etape2.spl -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 etape2.spl G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.sym 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.syr" 
+vhdtdtfi -lib work etape2.vhd -prj ETAPE2 -o etape2.spl -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 etape2.spl G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.sym 
+vhdtdtfi -lib work etape2.vhd -prj ETAPE2 -o etape2.spl -module etape2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 etape2.spl G:/Etudiant/INSTRU1/FPGA/Tp0/ETAPE2/etape2.sym 

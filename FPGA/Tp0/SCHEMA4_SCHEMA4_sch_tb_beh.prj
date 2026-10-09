@@ -1,0 +1,4 @@
+vhdl work "etape3/etape3.vhd"
+vhdl work "etape3/etape2.vhd"
+vhdl work "SCHEMA4.vhf"
+vhdl work "SCHEMA4_tb.vhd"

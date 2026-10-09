@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/Tp0/schema1tpo.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/Tp0/schema1tpo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 schema1tpo.ngc schema1tpo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o schema1tpo_map.ncd schema1tpo.ngd schema1tpo.pcf 
+par -w -intstyle ise -ol high -mt off schema1tpo_map.ncd schema1tpo.ncd schema1tpo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml schema1tpo.twx schema1tpo.ncd -o schema1tpo.twr schema1tpo.pcf 
+sch2sym -intstyle ise -family artix7 -refsym schema1tpo G:/Etudiant/INSTRU1/FPGA/Tp0/etape3/schema1tpo.sch G:/Etudiant/INSTRU1/FPGA/Tp0/schema1tpo.sym 

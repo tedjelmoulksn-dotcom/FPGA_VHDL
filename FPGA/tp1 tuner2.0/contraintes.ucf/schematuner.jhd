@@ -1,0 +1,19 @@
+MODULE schematuner
+	SUBMODULE MULTIPLEXEUR
+		INSTANCE XLXI_1
+	SUBMODULE constantesur4bits
+		INSTANCE constante_1
+	SUBMODULE constantesur4bits
+		INSTANCE constants_3
+	SUBMODULE decode2_to_4
+		INSTANCE XLXI_3
+	SUBMODULE digit_0_sur_4bits
+		INSTANCE Digit_0
+	SUBMODULE digit_0_sur_4bits
+		INSTANCE Digit_2
+	SUBMODULE etape3
+		INSTANCE XLXI_8
+	SUBMODULE etape2
+		INSTANCE XLXI_9
+	SUBMODULE Compteur2bits
+		INSTANCE XLXI_10

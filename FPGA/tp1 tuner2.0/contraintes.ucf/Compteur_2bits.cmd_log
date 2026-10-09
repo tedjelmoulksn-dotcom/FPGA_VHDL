@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur_2bits.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur_2bits.syr" 
+xst -intstyle ise -ifn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur_2bits.xst" -ofn "G:/Etudiant/INSTRU1/FPGA/tp1 tuner/contraintes.ucf/Compteur_2bits.syr" 
