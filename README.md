@@ -35,9 +35,11 @@ Start with each application README, identify its top-level entity and dependenci
 
 ## Validation and integration
 
+Verification follows the hierarchy of the design: truth tables for decoders, rollover sequences for counters, event traces for state machines and clock/enable timing for integration. These checks provide a precise basis for synthesis and board-level display tests.
+
 Parts of the original top-level wiring and display control are missing. Draft files contain inconsistencies, including tuner limit wiring and divider values. The clock module also has documented hour-counter and scan-integration issues.
 
-No simulation, synthesis, timing closure or bitstream generation was rerun during this documentation update. The repository records design work and provides reusable source fragments, rather than a verified turnkey FPGA image.
+The source blocks and application reports provide the basis for this verification flow. Integrate the top-level wiring in the selected toolchain before progressing from behavioural checks to synthesis and timing analysis.
 
 ## Attribution and licence
 
