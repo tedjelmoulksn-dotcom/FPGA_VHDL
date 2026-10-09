@@ -2,6 +2,10 @@
 
 Digital control for a displayed frequency from 87.5 to 108.0 MHz in 0.1 MHz steps. This is a tuner interface model, not an RF reception or demodulation implementation.
 
+![Original state-machine design for increment, decrement and sustained button presses.](assets/machine_etats_stmp.png)
+
+*Original state-machine design for increment, decrement and sustained button presses.*
+
 ## Control behaviour
 
 Short presses request one increment or decrement. A held press enters a delay state and then repeated stepping. Both controls request initialisation in the associated coursework design.
