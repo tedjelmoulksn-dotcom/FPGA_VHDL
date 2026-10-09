@@ -16,7 +16,7 @@ The archived constraints target a Digilent Nexys A7-100T, Artix-7 FPGA, with a 1
 | [`BCD.vhd`](src/BCD.vhd) | Seven-segment decoding, including hexadecimal values |
 | [Constraints](constraints/nexys_a7_100t_horloge.xdc) | Board pin assignments derived from the Digilent master file |
 
-The display multiplexer, scan counter, top-level project and application testbenches are not included.
+The preserved blocks cover counting, cadence selection and decoding. Integration adds a top-level interconnection, digit multiplexer and scan counter to coordinate the shared segment bus and active anode.
 
 ## Timing and counting
 
@@ -46,7 +46,7 @@ The current counter receives a derived, combinationally selected clock. A single
 
 ## Validation
 
-The archive cannot regenerate a complete bitstream as supplied. Simulation, synthesis and timing closure were not rerun for this README update.
+Validate in stages: simulate BCD carries and rollover, inspect display scan timing, then check synthesis constraints and clock paths. The integration workflow above supplies the additional top-level/display logic.
 
 ## Licence
 
