@@ -24,8 +24,8 @@ Identify the actual target and reconstruct the top-level wiring before simulatio
 
 The report/source archive includes inconsistent limit wiring: both boundary flags are connected to the lower-limit condition in one schematic. Divider values also differ from comments, and draft HDL files contain incomplete or invalid sections.
 
-Check boundary behaviour at 87.5 and 108.0 MHz, simultaneous presses, reset and long-press timing with a testbench. Missing top-level artifacts prevent a turnkey build.
+A testbench should check one-step behaviour at 87.5 and 108.0 MHz, simultaneous presses, reset and sustained stepping. Complete the top-level interconnections before synthesising the assembled interface.
 
 ## Validation and attribution
 
-No new simulation, bitstream or hardware result is claimed. Original coursework attribution remains in the report and source. No project-wide licence has been defined.
+The report and source preserve the coursework's design progression, from button events to BCD output. Original attribution remains in place. No project-wide licence has been defined.
