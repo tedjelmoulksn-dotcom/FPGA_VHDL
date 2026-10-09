@@ -1,6 +1,10 @@
 # FPGA and VHDL — Digital Control and Display Logic
 
-A digital-design portfolio covering combinational decoding, counters, multiplexed seven-segment displays and finite-state control. The main applications are a digital clock and an FM-frequency tuning interface.
+VHDL counters, state machines and display logic for FPGA clock and tuning interfaces.
+
+![Original FM-interface state machine: single-step, delay and repeated-action states.](Tuner_FM_FPGA/assets/machine_etats_stmp.png)
+
+*Original FM-interface state machine: single-step, delay and repeated-action states.*
 
 ## Repository map
 
