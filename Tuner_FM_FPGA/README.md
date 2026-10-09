@@ -33,3 +33,8 @@ A testbench should check one-step behaviour at 87.5 and 108.0 MHz, simultaneous 
 ## Validation and attribution
 
 The report and source preserve the coursework's design progression, from button events to BCD output. Original attribution remains in place. No project-wide licence has been defined.
+
+
+## Portfolio location
+
+This folder is the main location for the FM tuning-interface project: VHDL sources, report and diagrams are collected here. The [Minuterie_FPGA repository](https://github.com/tedjelmoulksn-dotcom/Minuterie_FPGA) preserves an earlier supporting design archive of the same work. Treat these as two locations for one project.
