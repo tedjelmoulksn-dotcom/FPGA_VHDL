@@ -1,17 +1,19 @@
-# FPGA et VHDL
+# FPGA and VHDL Laboratories
 
-Conception numérique sur FPGA (Xilinx ISE, carte Digilent Nexys A7-100T), cycle ingénieur Instrumentation, Sup Galilée, 2023.
+Digital-design studies in counters, multiplexed seven-segment displays, clock division and finite-state control. The collection includes an FM tuning interface and a digital clock.
 
-| Dossier | Contenu |
+## Repository guide
+
+| Location | Contents |
 |---|---|
-| [`tuner_fm/`](tuner_fm/) | Prise en main ISE, décodeur 7 segments, anti-rebond, affichage multiplexé sur 4 afficheurs, compteur BCD 87,5–108 MHz, machines d'états STMP et STINIT (appui court / appui long) |
-| [`horloge_numerique/`](horloge_numerique/) | Horloge HH:MM:SS sur afficheurs 7 segments multiplexés |
+| [Tuner_FM_FPGA/](Tuner_FM_FPGA/) | Organised tuner sources, report and diagrams |
+| [Horloge_numerique_FPGA/](Horloge_numerique_FPGA/) | HH:MM:SS clock blocks and Nexys constraints |
+| [archive/](archive/) | Original ISE project files, schematics and test benches |
 
-Chaque dossier contient son propre README détaillé.
+## Getting started
 
-## Compétences
-VHDL combinatoire et séquentiel, compteurs BCD, multiplexage d'afficheurs, machines d'états, bancs de test ISim, contraintes `.ucf`.
+Use Xilinx ISE for the original `.xise` and `.ucf` projects. The digital-clock folder uses `.xdc` constraints for Vivado. Choose the matching project and verify its target device and clock before synthesis.
 
-## Remarques
-- `horloge_numerique/` : paternité de certains fichiers à confirmer avant publication (voir son README).
-- Aucune licence n'a été définie.
+## Project context
+
+Curated source folders and original project layouts are kept separate. Some clock integration blocks are missing; the original tuner import adds schematics absent from the earlier curated folder.
