@@ -2,6 +2,10 @@
 
 VHDL laboratory material for a multiplexed digital clock, with original FPGA project archives.
 
+![FPGA VHDL project overview](assets/project-overview.svg)
+
+*Technical study overview based on the available repository material.*
+
 ## Repository guide
 
 - [Horloge_numerique_FPGA](Horloge_numerique_FPGA/): clock modules, display decoding and Nexys A7 constraints.
