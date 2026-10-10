@@ -1,7 +1,5 @@
-# FPGA FM Tuning Interface
+# FM Tuning Controller — Relocated
 
-VHDL studies of a displayed 87.5–108.0 MHz tuning range, BCD counting, display multiplexing and timed button control.
+The maintained VHDL sources, report and diagrams are now in [Minuterie_FPGA](https://github.com/tedjelmoulksn-dotcom/Minuterie_FPGA).
 
-## Getting started
-
-Explore `src/`, `docs/` and `assets/`. Original ISE schematics and project layouts are also available in `../archive/ise_projects/`. Use the toolchain and device settings specified by each original project.
+Historical ISE projects remain in this repository's [archive](../archive/ise_projects/).

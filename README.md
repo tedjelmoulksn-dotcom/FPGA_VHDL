@@ -1,19 +1,16 @@
-# FPGA and VHDL Laboratories
+# FPGA Digital Design
 
-Digital-design studies in counters, multiplexed seven-segment displays, clock division and finite-state control. The collection includes an FM tuning interface and a digital clock.
+VHDL laboratory material for a multiplexed digital clock, with original FPGA project archives.
 
 ## Repository guide
 
-| Location | Contents |
-|---|---|
-| [Tuner_FM_FPGA/](Tuner_FM_FPGA/) | Organised tuner sources, report and diagrams |
-| [Horloge_numerique_FPGA/](Horloge_numerique_FPGA/) | HH:MM:SS clock blocks and Nexys constraints |
-| [archive/](archive/) | Original ISE project files, schematics and test benches |
+- [Horloge_numerique_FPGA](Horloge_numerique_FPGA/): clock modules, display decoding and Nexys A7 constraints.
+- [archive/ise_projects](archive/ise_projects/): historical Xilinx ISE work, preserved with its original internal layout.
 
-## Getting started
+The **FM tuning controller** now has its own canonical repository: [Minuterie_FPGA](https://github.com/tedjelmoulksn-dotcom/Minuterie_FPGA). Its maintained sources, diagrams and report are located there.
 
-Use Xilinx ISE for the original `.xise` and `.ucf` projects. The digital-clock folder uses `.xdc` constraints for Vivado. Choose the matching project and verify its target device and clock before synthesis.
+## Working with the clock
 
-## Project context
+Read the module guide, inspect the VHDL sources and match the XDC constraints to your board. The clock study uses Vivado-style constraints; archived ISE projects belong to an older toolchain.
 
-Curated source folders and original project layouts are kept separate. Some clock integration blocks are missing; the original tuner import adds schematics absent from the earlier curated folder.
+The available modules do not establish a newly validated complete board-level build. Check top-level integration, clocking and display timing before synthesis.
